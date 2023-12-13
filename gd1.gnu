@@ -1,5 +1,7 @@
  #!/usr/bin/gnuplot -persist
- 
+#fichier pour gnuplot
+
+
 set terminal jpeg
 set output 'output.jpeg'
 set title 'Traitement d1'
