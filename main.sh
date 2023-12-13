@@ -1,4 +1,5 @@
 #!/bin/bash
+#PAS FINIE
 
 for arg in "$@"; do
     shift
