@@ -1,16 +1,15 @@
  #!/usr/bin/gnuplot -persist
-#fichier pour gnuplot
-
 
 set terminal jpeg
 set output 'output.jpeg'
-set title 'Traitement d1'
+
+
+set xrange[0:10]
+set yrange[0:10]
 set xlabel 'Nb de trajets effectués'
 set ylabel 'Nom'
-set yrange [0:10]
-set xdata time
-set timefmt "%Y-%m-%d"
-set xtics format "%d-%m"
-plot "data.csv" using 1:3 with boxes lc rgb"blue"
-    
-    #data est trop lourd
+set title 'Traitement d1'
+set boxwidth 0.9 relative
+set style fill solid 1.0
+
+plot "new.dat" with boxes 
