@@ -1,0 +1,55 @@
+check list:
+
+1- argument -h -> ignore tout et HELP
+2- vérification de la présence du fichier C
+	-> si pas de fichier -> compiler
+	
+3- Durée de traitement à afficher en secondes
+	-> compilation C ne compte pas
+	
+4- Création d'une image/ Graphique Gnuplot
+
+OPTIONS:
+
+D1 -> le + Nb de trajets
+
+	1- Récuperer les nb de trajets et les conducteurs dans data.csv 
+	2- ordre décroissant de nb de trajets
+	
+	3-graphique histogramme horizontal (y=nom,x=nb de trajets)
+	Ne doit pas dépasser 8sec de temps d'exec
+	
+D2 -> +grande distance 
+	1- Recup la distance totale de chaque conducteur (somme des distances des étapes)
+	2- Garder les 10 premiers (décroissant)	
+	
+	3- Hisogramme horizontal (y: nom, x: distance totale parcourue)
+	
+	7sec max
+	
+L -> Trajets les plus longs
+	1- Recupere la distance totale de chaque trajet 
+	
+	2-Garder les 10+ grandes distances
+	
+	3-Les ordonner par numéro d'id de trajet croissant
+	
+	4-Histogramme vertical (X: IDENTIFAINT TRAJET, Y: distance en km)
+	
+	8 sec max 
+	
+T -> Les 10 villes les plus parcourues
+	PASSER PAR UN PROGRAMME C (SORT INTERDIT, AVL OBLIGATOIRE)
+	1- Récupérer le nb de trajets pour chauqe ville
+	2- Chaque trajet à un conducteur, un conducteurs peut avoir plusireurs trajets
+	3- Une ville est traversée qu'une fois
+	4- Garder les 10 premières villes
+	5- Histogramme regroupé (x: nom villes, y:nb de trajets/conducteurs)
+	
+
+S -> stats sur les étapes
+	1- Recup les distances minimales, maxmimales et moyennes des étapes pour chaque trajet
+	2- Graphique courbe type min-max-moyenne (voir sujet)
+	3- X: identifiants des trjats croissants
+	Y: DIstances en km (mini,moyenne,maxi)
+	
