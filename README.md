@@ -1,7 +1,7 @@
 # Projet-CY-Trucks
 
  	 	
-Le but de ce projet est de créer un programme en shell (et en C) permettant la gestion de la logistique d'une socièté de transport. Il permet d'obtenir 5 statisstiques sous forme d'histogrammes: Les conducteurs avec le plus de trajets, les conducteurs et la plus grande distance, les 10 trajets les plus longs, les 10 villes les plus traversées et les statistiques sur les étapes.
+Le but de ce projet est de créer un programme en shell (et en C) permettant la gestion de la logistique d'une socièté de transport. Il permet d'obtenir 5 statistiques sous forme d'histogrammes: Les conducteurs avec le plus de trajets, les conducteurs et la plus grande distance, les 10 trajets les plus longs, les 10 villes les plus traversées et les statistiques sur les étapes.
 
 
 Prérequis:
