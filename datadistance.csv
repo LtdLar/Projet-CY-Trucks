@@ -1,3 +1,6 @@
+awk -F';' '{tab[$1]+=$5} END {for (i in tab) printf "%d;%d\n", i, tab[i]}' data.csv | sort -t';' -r -n -k2 | head -10 | sort -t';' -r -n -k1 > datadistance.csv
+cat datadistance.csv
+
 295579;2500
 256594;2323
 252014;2341
