@@ -1,8 +1,8 @@
 #!/bin/bash
 Start=$(date +%s)
 
-awk -F';' '{tab[$1]+=$5} END {for (i in tab) printf "%d;%d\n", i, tab[i]}' data.csv | sort -t';' -r -n -k2 | head -10 | sort -t';' -r -n -k1 > datadistance.csv
-cat datadistance.csv
+awk -F';' '{tab[$1]+=$5} END {for (i in tab) printf "%d;%d\n", i, tab[i]}' data.csv | sort -t';' -r -n -k2 | head -10 | sort -t';' -r -n -k1 > l.csv
+cat l.csv
 gnuplot l.gnu
 
 End=$(date +%s)
