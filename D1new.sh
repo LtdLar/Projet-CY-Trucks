@@ -30,5 +30,5 @@ echo "Temps d'execution $(($End-$Start)) sec"
 
 
 
-#AWK çA amrche bien, il reste à bien trier et faire la boucle !!
+#AWK ça marche bien, il reste à bien trier et faire la boucle !!
 
