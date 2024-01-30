@@ -4,7 +4,7 @@
 set terminal jpeg
 set output 'output1.jpeg'
 
-set xtics scale 0.1
+set xtics rotate by -45
 set yrange[0:200000]
 set title "D1"
 set style fill solid
