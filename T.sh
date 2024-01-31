@@ -2,7 +2,7 @@
 Start=$(date +%s)
 # Vérifie si le nombre d'arguments est correct
 if [ "$#" -ne 1 ]; then
-    echo "Usage: $0 fichier_csv"
+    echo "Erreur argument introuvable"
     exit 1
 fi
 
@@ -30,12 +30,21 @@ top_10_occurrences=$(echo "$tri_occurrences" | head -n 10)
 # Crée un nouveau fichier CSV pour stocker les résultats
 nouveau_fichier_dat="resultats.dat"
 
-# Affiche les résultats dans le nouveau fichier CSV
+# Affiche les résultats dans le nouveau fichier DAT
 echo "$top_10_occurrences" > "$nouveau_fichier_dat"
 
 echo "Les 10 mots les plus fréquents ont été enregistrés dans $nouveau_fichier_dat."
 
 
+#Création du graphique avec gnuplot
+gnuplot T.gnu
+
 #Affichage du tmps d'éxecution
 End=$(date +%s)
 echo "Temps d'execution $(($End-$Start)) sec"
+
+display outputT.jpeg
+
+
+
+#Regler les noms des villes en deux mots
