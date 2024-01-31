@@ -11,5 +11,5 @@ set ylabel "Nb de trajets"
 set title "D1"
 set style fill solid
 set style data histograms
-plot "new.dat" using 1:xtic(2)
+plot "res.dat" using 1:xtic(2)
 

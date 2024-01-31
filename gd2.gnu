@@ -4,7 +4,9 @@ set terminal jpeg
 set output 'output2.jpeg'
 
 set xtics rotate by -45
-set yrange[0:2000]
+set yrange[0:1500]
+set ylabel "Distance parcourue"
+set xlabel "Noms"
 set title "D2"
 set style fill solid
 set style data histograms

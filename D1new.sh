@@ -19,6 +19,7 @@ awk '{print $1 $6}' FS=";" data.csv | head -10 data.csv > debara.sh
 #Données à récupérer et à utiliser
 
 tail -10 debara.sh > new.dat
+cut -d ";" -f "1,6" new.dat > res.dat
 
 #Création du graphique avec gnuplot
 gnuplot gd1.gnu
