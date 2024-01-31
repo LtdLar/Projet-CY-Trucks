@@ -1,29 +1,33 @@
 #!/bin/bash
-#PAS FINIE
 
 for arg in "$@"; do
     shift
     case "$arg" in
-    --d1) 
-    sort -r
-    #head -10 data.csv
-    echo "Traitementd1"
-    gnuplot "gd1.gnu"
-    
-    
-    
-
+    --d1)
+    echo "Traitement d1"
+    bash D1new.sh
     ;;
-    --d2) echo "TraitementD2"
+    --d2) 
+    echo "Traitementd2"
+    bash D2.sh
     ;;
-    --l) echo "Traiteentl"
+    --l) 
+    echo "Traitementl"
+    bash l.sh
     ;;
-    --s) echo "TraitementS"
+    --s) 
+    echo "TraitementS"
     ;;
-    --t) echo "TraitementT"
+    --t) 
+    echo "TraitementT"
+    bash TraitementT.sh
     ;;
-    *) echo "Aucune option"
-        exit 1
+    --h)
+    echo "Help"
+    bash h.sh
+    ;;
+    '') 
+    echo "Aucune option"
     ;;
     esac
 done

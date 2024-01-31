@@ -23,3 +23,4 @@ echo "Temps d'execution $(($End-$Start)) sec"
 display output2.jpeg
 
 #Fonctionnel, bug des noms sur l'axe X
+#Attention, chaque trajet ! sommer les distances des gens

@@ -22,6 +22,7 @@ tail -10 debara.sh > new.dat
 
 #Création du graphique avec gnuplot
 gnuplot gd1.gnu
+display output1.jpeg
 
 #Affichage du tmps d'éxecution
 End=$(date +%s)
@@ -30,5 +31,5 @@ echo "Temps d'execution $(($End-$Start)) sec"
 
 
 
-#AWK ça marche bien, il reste à bien trier et faire la boucle !!
+#AWK çA amrche bien, il reste à bien trier et faire la boucle !!
 
