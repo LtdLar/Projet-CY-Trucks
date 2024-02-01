@@ -1,13 +1,13 @@
 #!/bin/bash
 Start=$(date +%s)
 # Vérifie si le nombre d'arguments est correct
-if [ "$#" -ne 1 ]; then
-    echo "Erreur argument introuvable"
-    exit 1
-fi
+#if [ "$#" -ne 1 ]; then
+ #   echo "Erreur argument introuvable"
+  #  exit 1
+#fi
 
 # Récupère le fichier CSV en argument
-fichier_csv="$1"
+fichier_csv=data.csv
 
 # Vérifie si le fichier existe
 if [ ! -f "$fichier_csv" ]; then
