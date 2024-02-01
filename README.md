@@ -12,9 +12,9 @@ Bilbliothèque standard des commandes en bash
 Système d'exploitation compatible 
 
 Utilisation
-Voici comment utiliser notre programme :
+Voici comment utiliser notre programme 
 
-Notre programme contient plusieurs options executables: -d1, -d2, -l, -t, -s -h:
+Notre programme contient plusieurs options executables: -d1, -d2, -l, -t, -s -h
 
  D1 -> Conducteurs avec le plus de trajets
  D2 -> Conducteurs et la plus grande distance
@@ -23,7 +23,7 @@ Notre programme contient plusieurs options executables: -d1, -d2, -l, -t, -s -h:
  S -> Statistiques sur les étapes
 
 
- Téléchargez tous les fichers de ce dépot dans un même dossier\n
+ Téléchargez tous les fichers de ce dépot dans un même dossier
  Executez le fichier main.sh dans un terminal linux avec l'option désirée, recommencez l'opération pour utiliser une autre option
  Utilisez l'option help (-h) si besoin pour avoir plus d'information sur les options
 
