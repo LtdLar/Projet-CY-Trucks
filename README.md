@@ -33,4 +33,5 @@ Avertissement
 Voici les premiers bugs remarqués :
 -Problème d'affichage des villes pour le Traitement T
 -Problème de récupération de données pour le Traitement D1
+-Problème de fonctionnement du traitement S
 
