@@ -217,7 +217,7 @@ int main() {
     int colonne5;
 };
     struct Donnees *tableau;
-    int nombreDeLignes = 6365542;  // Mettez le nombre de lignes réel de votre fichier
+    int nombreDeLignes = 6365542;  
 
     // Ouverture du fichier CSV en mode lecture
     FILE *fichier = fopen("data.csv", "r");
