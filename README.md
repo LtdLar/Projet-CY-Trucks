@@ -23,7 +23,7 @@ Notre programme contient plusieurs options executables: -d1, -d2, -l, -t, -s -h
  S -> Statistiques sur les étapes
 
 
- Téléchargez tous les fichers de ce dépot dans un même dossier, 
+ Téléchargez tous les fichers de ce dépot dans un même dossier et placez votre fichier de données dedans, 
  Executez le fichier main.sh dans un terminal linux avec l'option désirée, recommencez l'opération pour utiliser une autre option, 
  Utilisez l'option help (-h) si besoin pour avoir plus d'information sur les options
 
